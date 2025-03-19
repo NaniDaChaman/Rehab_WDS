@@ -4,11 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "4708f0df816d60c8",
+        "id": "5621345105e2f398",
         "type": "tabs",
+        "dimension": 41.95710455764075,
         "children": [
           {
-            "id": "83ecd057af91c7e7",
+            "id": "606ef20f0d096e9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main Notes/Branched pipe optimization.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Branched pipe optimization"
+            }
+          },
+          {
+            "id": "748a1e836e6b76f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,21 +37,7 @@
             }
           },
           {
-            "id": "1f197b13551e5656",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Main Notes/SMGA expanded.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SMGA expanded"
-            }
-          },
-          {
-            "id": "cc90f381bba253d2",
+            "id": "169a8127f9105fc2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,21 +51,159 @@
             }
           },
           {
-            "id": "2d88b48b898c97aa",
+            "id": "0a0a49ff404fe1be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Main Notes/GA in WDS.md",
+                "file": "Main Notes/JuMP and HiGHS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GA in WDS"
+              "title": "JuMP and HiGHS"
+            }
+          },
+          {
+            "id": "7a2a9d008dfd5d97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main Notes/Rehab problem.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rehab problem"
+            }
+          },
+          {
+            "id": "6e7d6ac67e44963c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main Notes/Creating Node Networks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Creating Node Networks"
+            }
+          },
+          {
+            "id": "f939981d0e5545bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main Notes/Components of our Water Network.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Components of our Water Network"
+            }
+          },
+          {
+            "id": "9da92327fd9d46b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main Notes/Khardi Rural Piped Water Scheme.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Khardi Rural Piped Water Scheme"
+            }
+          },
+          {
+            "id": "c0bbae86a7075662",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Main Notes/Karegaon Scheme.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Karegaon Scheme"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
+      },
+      {
+        "id": "4253342efe7a937d",
+        "type": "tabs",
+        "dimension": 58.04289544235925,
+        "children": [
+          {
+            "id": "26d054474bf7930b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Rough Notes/JalTantra 2.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "JalTantra 2"
+            }
+          },
+          {
+            "id": "b05d6f41d51a898f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Rough Notes/optimal scheduling of wds.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "optimal scheduling of wds"
+            }
+          },
+          {
+            "id": "0935788177bc91e5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Rough Notes/khadi pipe scheme.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "khadi pipe scheme"
+            }
+          },
+          {
+            "id": "d9bf07cb32e9d1eb",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Rough Notes/branched optimisation thesis.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "branched optimisation thesis"
+            }
+          },
+          {
+            "id": "76f16c3b0ce8ebab",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Rough Notes/mokhada taluka optimisation.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "mokhada taluka optimisation"
+            }
+          }
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -83,7 +222,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -137,7 +277,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main Notes/GA in WDS.md",
+                "file": "Rough Notes/branched optimisation thesis.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +287,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for GA in WDS"
+              "title": "Backlinks for branched optimisation thesis"
             }
           },
           {
@@ -208,39 +348,51 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cc90f381bba253d2",
+  "active": "d9bf07cb32e9d1eb",
   "lastOpenFiles": [
-    "Rough Notes/Water Distribution System Optimisation.pdf",
-    "Rough Notes/Water Distribution System Optimisation.pdf.crdownload",
-    "Rough Notes/haz_wil.png",
-    "Rough Notes/p2.png",
-    "Rough Notes/obj_func.png",
-    "Rough Notes/Energy consumption coefficient.png",
-    "Rough Notes/tank_press.png",
-    "Rough Notes/pressure-eq.png",
-    "Rough Notes/pump-eq.png",
-    "Rough Notes/darcy-eq3.png",
-    "Rough Notes/darcy-eq2.png",
-    "Rough Notes/darcy-eq1.png",
-    "Rough Notes/Project Proposal Sparsh.pdf",
-    "Rough Notes/Project Proposal Sparsh.pdf.crdownload",
-    "Main Notes/SMGA expanded.md",
-    "Main Notes/Optimal Scheduling of Water Distribution Systems.md",
-    "Rough Notes/optimal scheduling or wds.pdf",
-    "Rough Notes/optimal scheduling or wds.pdf.crdownload",
+    "code/input/AF1225A0",
+    "Rough Notes/khadi pipe scheme.pdf",
+    "Rough Notes/branched optimisation thesis.pdf",
+    "Rough Notes/mokhada taluka optimisation.pdf",
+    "Main Notes/Rehab problem.md",
     "Main Notes/ILP examples for WDS systems.md",
-    "Rough Notes/SMGA.pdf",
-    "Rough Notes/SMGA.pdf.crdownload",
-    "Templates/Template.md",
-    "Main Notes/GA in WDS.md",
-    "Main Notes/Proposal.md",
-    "Rough Notes/wds using genetig algo.pdf",
-    "Rough Notes/ILP models for Water Distribution System .pdf",
-    "Rough Notes/ILP models for Water Distribution System .pdf.crdownload",
+    "Main Notes/Optimal Scheduling of Water Distribution Systems.md",
+    "Main Notes/Khardi Rural Piped Water Scheme.md",
+    "Rough Notes/optimal scheduling of wds.pdf",
+    "Main Notes/Karegaon Scheme.md",
+    "code/output/Karegaon Tank Schedule.png",
+    "code/input/6C6FFA90",
+    "code/output/Khardi Tank Schedule.png",
+    "code/output/khardi_rehab.inp",
+    "code/output/khardi_rehab.lp",
+    "code/input/ACC5AA90",
+    "code/khardi_rehab.jl",
+    "code/khardi_ilp.jl",
+    "code/input/Karegaon Tank Schedule.png",
+    "Main Notes/Creating Node Networks.md",
+    "Rough Notes/tank level eq.png",
+    "Main Notes/Components of our Water Network.md",
+    "Main Notes/JuMP and HiGHS.md",
+    "Rough Notes/water reseviors.png",
+    "Main Notes/Branched pipe optimization.md",
+    "code/nativesvg.svg",
     "Main Notes/Hydralic components of models.md",
-    "Welcome.md",
+    "Main Notes/Hydralic analysis.md",
+    "Main Notes/Presentation with Laine.md",
+    "Main Notes/Types of Dec making frameworks.md",
+    "Main Notes/Talk w Nitya.md",
+    "Rough Notes/proving p is corner point.png",
+    "Main Notes/Linear program.md",
     "Main Notes/todo.md",
-    "Main Notes/Obsidian Stuff.md",
+    "Main Notes/SMGA expanded.md",
+    "Reference/Obsidian Stuff.md",
+    "Main Notes/Bilevel Programs.md",
+    "Rough Notes/darcy-eq2.png",
+    "Rough Notes/Energy consumption coefficient.png",
+    "Rough Notes/obj_func.png",
+    "Main Notes/GA in WDS.md",
+    "Templates/Template.md",
+    "Welcome.md",
     "Untitled.md"
   ]
 }

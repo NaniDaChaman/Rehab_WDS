@@ -1,0 +1,85 @@
+[TITLE]
+Optimal hydralic component allocation for Khardi Redesign scheme
+[JUNCTIONS]
+;ID	Elev	Demand	Pattern
+1	286.0	0.29055555555555557	1	;
+2	342.0	0.0	1	;
+3	342.0	0.0	1	;
+4	342.0	0.0	1	;
+5	342.0	0.0	1	;
+6	331.0	0.6188888888888889	1	;
+7	342.0	0.0	1	;
+8	342.0	0.0	1	;
+9	342.0	0.0	1	;
+10	248.0	23.26222222222222	1	;
+
+[RESERVOIRS]
+;ID		Head	Pattern
+11	480.0	1	;
+
+[TANKS]
+;ID	Elevation	InitLevel	MinLevel	MaxLevel	Diameter	MinVol	VolCurve
+tank1	286.0	10.0	18.0	18.0	1388.888888888889	0		;
+
+[PIPES]
+;ID	Node1	Node2	Length	Diameter	Roughness	MinorLoss	Status;
+1	11	tank1	1561.0	140.0	0	Open	;
+11	tank1	2	1561.0	0	0	Open	;
+2	11	tank1	976.0	140.0	0	Open	;
+12	tank1	3	976.0	0	0	Open	;
+3	3	4	1063.0	140.0	0	Open	;
+4	4	5	878.0	140.0	0	Open	;
+5	5	6	187.0	140.0	0	Open	;
+6	5	7	2730.0	140.0	0	Open	;
+7	7	8	1196.1721983001082	140.0	0	Open	;
+7	7	8	180.82780169989184	145.0	0	Open	;
+8	8	9	4.547473508864641e-13	140.0	0	Open	;
+8	8	9	2308.9999999999995	145.0	0	Open	;
+9	9	10	2037.0	140.0	0	Open	;
+10	1	11	14.0	140.0	0	Open	;
+
+[PUMPS]
+;ID	Node1	Node2	Parameters
+
+[PATTERNS]
+;ID	Multipliers
+;General Default Demand Pattern
+1	1.34	1.94	1.46	1.44	.76	.92
+
+[CURVES]
+;ID	X-Value	Y-Value;
+
+[CONTROLS]
+
+[ENERGY]
+Global Efficiency	70.0
+Global Price	6.5
+
+[TIMES]
+Duration	24:00
+Hydraulic Timestep	3:00
+Quality Timestep	3:00
+Pattern Timestep	3:00
+Pattern Start	0:00
+Report Timestep	3:00
+Report Start	0:00
+
+[REPORT]
+Status	Yes
+Summary	No
+Page	0
+
+[COORDINATES]
+;Node	X-Coord	Y-Coord
+1	310.90909090909093	190.66666666666669
+2	279.8181818181818	228.00000000000003
+3	248.72727272727272	266.0
+4	217.63636363636363	313.5
+5	186.54545454545453	319.2
+6	155.45454545454547	220.66666666666669
+7	124.36363636363636	276.85714285714283
+8	93.27272727272727	327.75
+9	62.18181818181818	329.33333333333337
+10	31.09090909090909	181.86666666666667
+11	0.0	290.1818181818182
+tank1	310.90909090909093	185.66666666666669
